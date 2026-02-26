@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AAthekesavan R - DevOps Engineer</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Unique High-Tech Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Space Grotesk for Headings, JetBrains Mono for tech accents -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Space+Grotesk:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+
+    <!-- Progress Bar (Scanning Line Style) -->
+    <div id="scroll-progress"></div>
+
+    <!-- Neural Network Canvas (Replaces starry night) -->
+    <canvas id="particles-canvas"></canvas>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container navbar-content">
+            <div class="logo neumorphic-logo">AK</div>
+            <div class="nav-links">
+                <a href="#home">Overview</a>
+                <a href="#about">My Journey</a>
+                <a href="#skills">Expertise</a>
+                <a href="#projects">Featured Work</a>
+                <a href="#contact">Ping Me</a>
+            </div>
+
+            <!-- Hamburger Menu -->
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- App Main -->
+    <div class="main">
+
+        <!-- Hero Section (Left-Aligned Asymmetrical) -->
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <h1><span class="highlight">AATHEKESAVAN R</span></h1>
+                    <div class="terminal-box">
+                        <span class="prompt">></span> <span class="typing-text"></span><span class="cursor">_</span>
+                    </div>
+
+                    <p class="hero-desc">
+                        Computer Science student passionate about Cloud Computing and DevOps. Building scalable
+                        deployments, exploring CI/CD automation, and learning modern infrastructure architecture.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary cyber-btn">INITIALIZE PROTOCOL</a>
+                        <a href="https://github.com/aathekesavan" target="_blank" class="btn btn-secondary icon-btn"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/aathekesavan-r-a37a84316" target="_blank"
+                            class="btn btn-secondary icon-btn"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <!-- Empty column to balance the left-alignment and let the network background show -->
+                <div class="hero-graphic"></div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="section-header reveal reveal-left">
+                    <h2 class="section-title">My Journey</h2>
+                </div>
+
+                <div class="about-content">
+                    <div class="about-card neumorphic-box reveal reveal-up">
+                        <div class="panel-header">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                            <span>EDUCATION.LOG</span>
+                        </div>
+                        <div class="panel-body">
+                            <h3 class="degree-title">B.Tech // Computer Science Engineering</h3>
+                            <p class="institution">SRM Institute of Science and Technology, Tiruchirappalli</p>
+                            <div class="metric-bar">
+                                <span class="metric-label">CGPA_SCORE</span>
+                                <div class="bar-bg">
+                                    <div class="bar-fill" style="width: 81%"></div>
+                                </div>
+                                <span class="metric-value">8.1/10</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-card neumorphic-box reveal reveal-up delay-200">
+                        <div class="panel-header">
+                            <i class="fa-solid fa-certificate"></i>
+                            <span>CERTIFICATIONS.LOG</span>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="tech-list">
+                                <li><span>[CERT]</span> AWS Cloud Technical Essentials – Coursera (AWS)</li>
+                                <li><span>[CERT]</span> DevOps on AWS Specialization – Coursera (UC Davis)</li>
+                                <li><span>[EXP]</span> AWS Virtual Internship – Eduskills</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-header reveal reveal-left">
+                    <h2 class="section-title">Expertise</h2>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- Programming Languages -->
+                    <div class="skill-card neumorphic-box reveal reveal-up delay-100">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                        <h4>Programming Languages</h4>
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>C</span>
+                            <span>Java (Basic)</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+
+                    <!-- DevOps & Tools -->
+                    <div class="skill-card neumorphic-box reveal reveal-up delay-150">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                        </div>
+                        <h4>DevOps & Tools</h4>
+                        <div class="skill-tags">
+                            <span>Git & GitHub</span>
+                            <span>CI/CD (GitHub Actions / Jenkins – Basic)</span>
+                            <span>Docker</span>
+                            <span>Docker Compose</span>
+                            <span>Terraform</span>
+                            <span>Linux (Ubuntu)</span>
+                        </div>
+                    </div>
+
+                    <!-- Cloud Technologies -->
+                    <div class="skill-card neumorphic-box reveal reveal-up delay-200">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <h4>Cloud Technologies</h4>
+                        <div class="skill-tags">
+                            <span>AWS (EC2, S3, IAM, VPC)</span>
+                            <span>Infrastructure as Code (IaC)</span>
+                            <span>Cloud Deployment</span>
+                        </div>
+                    </div>
+
+                    <!-- Web Development -->
+                    <div class="skill-card neumorphic-box reveal reveal-up delay-250">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <div class="skill-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>REST APIs</span>
+                            <span>Flask (Basic)</span>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skill-card neumorphic-box reveal reveal-up delay-300">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <h4>Databases</h4>
+                        <div class="skill-tags">
+                            <span>MySQL</span>
+                            <span>PostgreSQL (Basic)</span>
+                        </div>
+                    </div>
+
+                    <!-- Currently Learning -->
+                    <div class="skill-card neumorphic-box reveal reveal-up delay-350">
+                        <div class="skill-icon">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                        <h4>Currently Learning</h4>
+                        <div class="skill-tags">
+                            <span>Kubernetes</span>
+                            <span>Advanced AWS Services</span>
+                            <span>System Design Basics</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-header reveal reveal-left">
+                    <h2 class="section-title">Featured Work</h2>
+                </div>
+
+                <div class="projects-grid">
+
+                    <a href="#" target="_blank" class="project-card neumorphic-box reveal reveal-up delay-100">
+                        <div class="project-scanline"></div>
+                        <div class="project-header">
+                            <h3 class="project-title">End-to-End CI/CD Pipeline with Docker Deployment</h3>
+                            <i class="fa-solid fa-arrow-right project-link-icon"></i>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Status: IN_PROGRESS</span>
+                        </div>
+                        <div class="project-desc">
+                            <p>> Building an automated CI/CD pipeline using GitHub Actions to streamline build, test,
+                                containerization, and deployment workflows.</p>
+                        </div>
+                    </a>
+
+                    <a href="#" target="_blank" class="project-card neumorphic-box reveal reveal-up delay-200">
+                        <div class="project-scanline"></div>
+                        <div class="project-header">
+                            <h3 class="project-title">Cloud Infrastructure Automation using Terraform</h3>
+                            <i class="fa-solid fa-arrow-right project-link-icon"></i>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Status: LEARNING_PHASE</span>
+                        </div>
+                        <div class="project-desc">
+                            <p>> Implementing Infrastructure as Code principles to provision AWS infrastructure using
+                                Terraform.</p>
+                        </div>
+                    </a>
+
+                    <a href="#" target="_blank" class="project-card neumorphic-box reveal reveal-up delay-300">
+                        <div class="project-scanline"></div>
+                        <div class="project-header">
+                            <h3 class="project-title">Containerized Multi-Service Application using Docker</h3>
+                            <i class="fa-solid fa-arrow-right project-link-icon"></i>
+                        </div>
+                        <div class="project-tech-stack">
+                            <span>Status: UNDER_DEVELOPMENT</span>
+                        </div>
+                        <div class="project-desc">
+                            <p>> Developing a multi-service containerized application to ensure consistent and portable
+                                deployments.</p>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-header reveal reveal-left">
+                    <h2 class="section-title">Ping Me</h2>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-item neumorphic-box reveal reveal-up delay-100">
+                        <div class="ping-pulse"></div>
+                        <i class="fa-solid fa-envelope"></i>
+                        <p class="contact-label">MAIL.TO</p>
+                        <a href="mailto:aathekesavan@gmail.com" class="contact-value">aathekesavan@gmail.com</a>
+                    </div>
+
+                    <div class="contact-item neumorphic-box reveal reveal-up delay-200">
+                        <div class="ping-pulse"></div>
+                        <i class="fa-brands fa-linkedin"></i>
+                        <p class="contact-label">LINK.IN</p>
+                        <a href="https://www.linkedin.com/in/aathekesavan-r-a37a84316" target="_blank"
+                            class="contact-value">LinkedIn</a>
+                    </div>
+
+                    <div class="contact-item neumorphic-box reveal reveal-up delay-300">
+                        <div class="ping-pulse"></div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p class="contact-label">GEO.LOC</p>
+                        <span class="contact-value">Tamil Nadu, IN</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="container">
+                <p>SYS.HALT // &copy; 2026 AATHEKESAVAN R.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Script connection -->
+    <script src="script.js"></script>
+</body>
+
+</html>
